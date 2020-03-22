@@ -19,7 +19,6 @@ yarn-error.log
 /lib/
 /build/
 /bundlesize/dist/
-/dist/
 
 ## temp folders
 /.tmp/

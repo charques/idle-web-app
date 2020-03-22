@@ -1,0 +1,21 @@
+{
+  "name": "idle-web-app",
+  "version": "0.0.0",
+  "description": "Webcomponent idle-web-app following open-wc recommendations",
+  "author": "idle-web-app",
+  "license": "MIT",
+  "scripts": {
+    "start": "rimraf dist && rollup -c rollup.config.js && node server.js",
+    "dev": "es-dev-server --app-index index.html --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "lit-html": "^1.0.0",
+    "lit-element": "^2.0.1",
+    "express": "~4.16.1",
+
+    "@open-wc/building-rollup": "^0.22.9",
+    "es-dev-server": "^1.45.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.1.0"
+  }
+}
