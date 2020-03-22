@@ -52,7 +52,7 @@ export class IdProviderClient extends LitElement {
       console.log("code: " +  urlParams.get('code'));
 
       let code = urlParams.get('code')
-      fetch("https://id-provider.herokuapp.com/token?grant_type=authorization_code&code=" + code + "&redirect_uri=https://idle-web-app.herokuapp.com/cb", {
+      fetch("https://id-provider.herokuapp.com/token?grant_type=authorization_code&code=" + code + "&client_id=idle-web-app&redirect_uri=https://idle-web-app.herokuapp.com/cb", {
         method: 'post'
       })
       .then(r => r.json())
