@@ -3,6 +3,9 @@
 install dependencies:
     $ npm install
 
-run the app:
+run dev:
     $ npm run dev
+
+run prod:
+    $ npm start 
 
