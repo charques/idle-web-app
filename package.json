@@ -11,9 +11,8 @@
   "dependencies": {
     "lit-html": "^1.0.0",
     "lit-element": "^2.0.1",
-    "express": "~4.16.1"
-  },
-  "devDependencies": {
+    "express": "~4.16.1", 
+
     "@open-wc/building-rollup": "^0.22.9",
     "es-dev-server": "^1.45.2",
     "rimraf": "^3.0.2",
